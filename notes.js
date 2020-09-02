@@ -93,6 +93,7 @@ const renderNote = (note) => {
         <button type="button" class="btn btn-danger delete-note" data-noteid="${note.id}">Delete Note</button>
       </div>
       <div class="card-footer">
+        <span class="badge badge-light">${note.createdAt}</span>
         <span class="badge badge-light">${noteStatus}</span>
       </div>
     </div>
